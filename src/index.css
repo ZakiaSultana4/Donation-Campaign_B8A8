@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* linear-gradient(to right, rgb(0 0 0 / 80%), rgb(33 33 33 / 80%)), */
+
+@layer {
+  .bg-banner {
+    background: linear-gradient(
+        to right,
+        rgba(245, 245, 245, 0.8),
+        rgba(255, 255, 255, 0.8)
+      ),
+      url("https://i.ibb.co/tPz3tK9/Rectangle-4281.png?fbclid=IwAR35i8AR5vb6AyUd999HW4iSa_PAGmCMBGQk8t5De_p6jrkYsNngKuKwJD0");
+    background-size: cover;
+    color: red;
+  }
+}
